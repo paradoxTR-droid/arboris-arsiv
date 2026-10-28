@@ -16,8 +16,8 @@ window.ARCHIVE = {
       tagline: "pdf / çevrimdışı",
       version: "1.0.0",
       minAndroid: "6.0",
-      size: "",
-      apk: "",
+      size: "121 MB",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/varak-v1.0.0/varak-1.0.0.apk",
       description:
         "Ücretsiz ve tamamen çevrimdışı çalışan PDF uygulaması. Belgelerin cihazında kalır, hiçbir yere gönderilmez.",
       features: ["İnternetsiz çalışır", "Ücretsiz, reklamsız"],
@@ -48,8 +48,8 @@ window.ARCHIVE = {
       tagline: "araç / obd-ii tarayıcı",
       version: "1.0.0",
       minAndroid: "6.0",
-      size: "",
-      apk: "",
+      size: "56 MB",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/carpulse-v1.0.0/carpulse-1.0.0.apk",
       description:
         "OBD-II adaptörüyle aracına bağlanan modern tarayıcı ve gösterge paneli. Aracının verilerini anlık olarak takip et.",
       features: ["OBD-II bağlantısı", "Canlı gösterge paneli"],
@@ -62,8 +62,8 @@ window.ARCHIVE = {
       tagline: "ilan / talep eşleştirme",
       version: "1.0.0",
       minAndroid: "6.0",
-      size: "",
-      apk: "",
+      size: "60 MB",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/tamsana-v1.0.0/tamsana-1.0.0.apk",
       description:
         "İlan verenlerle o ürünü arayanları bir araya getirir. Talebini yaz, sana uyan ilanlarla eşleş, doğrudan mesajlaş.",
       features: ["İlan ve talep oluşturma", "Otomatik eşleşme", "Uygulama içi mesajlaşma", "Şehre göre filtreleme"],
@@ -76,8 +76,8 @@ window.ARCHIVE = {
       tagline: "finans / bütçe",
       version: "1.0.0",
       minAndroid: "6.0",
-      size: "",
-      apk: "",
+      size: "52 MB",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/harcama-takip-v1.0.0/harcama-takip-1.0.0.apk",
       description: "Günlük harcamalarını kaydet, paranın nereye gittiğini gör.",
       features: ["Harcama kaydı", "Kategoriye göre takip"],
       changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
