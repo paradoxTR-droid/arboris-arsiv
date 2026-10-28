@@ -1,0 +1,86 @@
+// Arşivdeki uygulamalar. Yeni uygulama eklemek için listeye bir kayıt ekle.
+//
+// id        : adres satırında kullanılır (app.html?id=...)
+// apk       : GitHub Releases'taki dosya adresi. Boş bırakılırsa "hazırlanıyor" görünür.
+// size      : APK boyutu, örn. "18 MB"
+// features  : kısa madde listesi
+// changelog : en yeni sürüm en üstte
+window.ARCHIVE = {
+  siteName: "Arboris",
+  updated: "2026-10-28",
+  apps: [
+    {
+      id: "varak",
+      name: "Varak",
+      category: "Belge",
+      tagline: "pdf / çevrimdışı",
+      version: "1.0.0",
+      minAndroid: "6.0",
+      size: "",
+      apk: "",
+      description:
+        "Ücretsiz ve tamamen çevrimdışı çalışan PDF uygulaması. Belgelerin cihazında kalır, hiçbir yere gönderilmez.",
+      features: ["İnternetsiz çalışır", "Ücretsiz, reklamsız"],
+      changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
+    },
+    {
+      id: "arboris",
+      name: "Arboris",
+      category: "Oyun",
+      tagline: "oyun / bilgi yarışması",
+      version: "1.0.0",
+      minAndroid: "6.0",
+      size: "",
+      apk: "",
+      description:
+        "Doğa sevgisi ve Türkiye kültürü temalı bilgi yarışması ve kelime oyunu. Doğru cevap verdikçe ağacın büyür.",
+      features: [
+        "Kültür, tarih, coğrafya ve edebiyat soruları",
+        "Büyüyen ağaç mekaniği",
+        "Kelime oyunu modu"
+      ],
+      changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
+    },
+    {
+      id: "carpulse",
+      name: "CarPulse",
+      category: "Araç",
+      tagline: "araç / obd-ii tarayıcı",
+      version: "1.0.0",
+      minAndroid: "6.0",
+      size: "",
+      apk: "",
+      description:
+        "OBD-II adaptörüyle aracına bağlanan modern tarayıcı ve gösterge paneli. Aracının verilerini anlık olarak takip et.",
+      features: ["OBD-II bağlantısı", "Canlı gösterge paneli"],
+      changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
+    },
+    {
+      id: "tamsana",
+      name: "TamSana",
+      category: "Sosyal",
+      tagline: "ilan / talep eşleştirme",
+      version: "1.0.0",
+      minAndroid: "6.0",
+      size: "",
+      apk: "",
+      description:
+        "İlan verenlerle o ürünü arayanları bir araya getirir. Talebini yaz, sana uyan ilanlarla eşleş, doğrudan mesajlaş.",
+      features: ["İlan ve talep oluşturma", "Otomatik eşleşme", "Uygulama içi mesajlaşma", "Şehre göre filtreleme"],
+      changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
+    },
+    {
+      id: "harcama-takip",
+      name: "Harcama Takip",
+      category: "Finans",
+      tagline: "finans / bütçe",
+      version: "1.0.0",
+      minAndroid: "6.0",
+      size: "",
+      apk: "",
+      description: "Günlük harcamalarını kaydet, paranın nereye gittiğini gör.",
+      features: ["Harcama kaydı", "Kategoriye göre takip"],
+      changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
+    }
+  ]
+};

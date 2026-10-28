@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arboris — Uygulama Arşivi</title>
+  <meta name="description" content="Ücretsiz Android uygulamalarının arşivi. APK olarak indir, kur, kullan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Serif:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="sheet">
+    <header class="masthead">
+      <p class="kicker" id="kicker">Arşiv № 001 — Uygulamalar</p>
+      <h1>ARBORIS</h1>
+      <p class="lede">Geliştirdiğim Android uygulamaları. Hepsi ücretsiz, APK olarak indirip doğrudan kurabilirsin.</p>
+      <span class="stamp" aria-hidden="true">ÜCRETSİZ</span>
+    </header>
+
+    <section class="controls" aria-label="Arama ve filtre">
+      <div class="search">
+        <label for="q">ARA:</label>
+        <input id="q" type="search" placeholder="uygulama adı veya tür" autocomplete="off">
+      </div>
+      <ul class="filters" id="filters"></ul>
+    </section>
+
+    <ol class="catalog" id="catalog"></ol>
+    <p class="count" id="count" aria-live="polite"></p>
+
+    <footer class="footer">
+      <span>APK dosyaları GitHub üzerinden sunulur.</span>
+      <a href="kurulum.html">APK nasıl kurulur? →</a>
+    </footer>
+  </main>
+
+  <script src="data/apps.js"></script>
+  <script src="assets/main.js"></script>
+  <script>renderCatalog();</script>
+</body>
+</html>
