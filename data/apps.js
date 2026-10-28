@@ -30,8 +30,8 @@ window.ARCHIVE = {
       tagline: "oyun / bilgi yarışması",
       version: "1.0.0",
       minAndroid: "6.0",
-      size: "",
-      apk: "",
+      size: "60 MB",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/arboris-v1.0.0/arboris-1.0.0.apk",
       description:
         "Doğa sevgisi ve Türkiye kültürü temalı bilgi yarışması ve kelime oyunu. Doğru cevap verdikçe ağacın büyür.",
       features: [
