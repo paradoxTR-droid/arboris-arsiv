@@ -1,6 +1,6 @@
 # Arboris
 
-Android uygulamalarımın ücretsiz APK arşivi. Saf HTML/CSS/JS, build adımı yok. GitHub Pages'te yayınlanır.
+Android uygulamalarımın ücretsiz APK arşivi. Saf HTML/CSS/JS, build adımı yok. Firebase Hosting'te yayınlanır: https://arboris-arsiv.web.app
 
 ## Yapı
 
@@ -23,4 +23,10 @@ Bu repo **public** olmalı. Uygulama kodları kendi private repolarında kalır,
 
 ```bash
 python -m http.server 8765
+```
+
+## Yayınlama
+
+```bash
+firebase deploy --only hosting
 ```
