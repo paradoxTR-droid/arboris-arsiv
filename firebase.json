@@ -1,7 +1,17 @@
 {
   "hosting": {
     "public": ".",
-    "ignore": ["firebase.json", ".firebaserc", "README.md", "PRODUCT.md", "DESIGN.md","**/.*", "**/.*/**","**/node_modules/**"],
-    "cleanUrls": true
+    "ignore": ["firebase.json", ".firebaserc", "README.md", "PRODUCT.md", "DESIGN.md", "**/.*", "**/.*/**", "**/node_modules/**"],
+    "cleanUrls": true,
+    "headers": [
+      {
+        "source": "**/*.@(html|css|js)",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      },
+      {
+        "source": "**/!(*.*)",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      }
+    ]
   }
 }
