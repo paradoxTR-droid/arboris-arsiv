@@ -16,7 +16,7 @@ window.ARCHIVE = {
       tagline: "pdf / çevrimdışı",
       version: "1.0.1",
       minAndroid: "6.0",
-      size: "115 MB",
+      size: "121 MB",
       apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/varak-v1.0.1/varak-1.0.1.apk",
       description:
         "Ücretsiz ve tamamen çevrimdışı çalışan PDF uygulaması. Belgelerin cihazında kalır, hiçbir yere gönderilmez.",
