@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": ".",
-    "ignore": ["firebase.json", ".firebaserc", "README.md", "**/.*", "**/node_modules/**"],
+    "ignore": ["firebase.json", ".firebaserc", "README.md", "PRODUCT.md", "DESIGN.md","**/.*", "**/node_modules/**"],
     "cleanUrls": true
   }
 }
