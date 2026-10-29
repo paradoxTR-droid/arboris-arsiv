@@ -14,14 +14,17 @@ window.ARCHIVE = {
       name: "Varak",
       category: "Belge",
       tagline: "pdf / çevrimdışı",
-      version: "1.0.0",
+      version: "1.0.1",
       minAndroid: "6.0",
-      size: "121 MB",
-      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/varak-v1.0.0/varak-1.0.0.apk",
+      size: "115 MB",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/varak-v1.0.1/varak-1.0.1.apk",
       description:
         "Ücretsiz ve tamamen çevrimdışı çalışan PDF uygulaması. Belgelerin cihazında kalır, hiçbir yere gönderilmez.",
       features: ["İnternetsiz çalışır", "Ücretsiz, reklamsız"],
-      changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
+      changelog: [
+        { version: "1.0.1", notes: "Güvenlik ve kararlılık güncellemesi: dışarıdan gelen dosyalar daha güvenli açılır, büyük dosyalarda donma giderildi, tarama metin tanıma başarısız olsa da kaydedilir, dosyalar ve imza bulut yedeğine gitmez." },
+        { version: "1.0.0", notes: "İlk yayın." }
+      ]
     },
     {
       id: "arboris",
