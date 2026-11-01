@@ -7,7 +7,7 @@
 // changelog : en yeni sürüm en üstte
 window.ARCHIVE = {
   siteName: "Arboris",
-  updated: "2026-10-31",
+  updated: "2026-11-01",
   apps: [
     {
       id: "varak",
@@ -62,14 +62,15 @@ window.ARCHIVE = {
       id: "tamsana",
       name: "TamSana",
       category: "Sosyal",
-      version: "1.1.0",
+      version: "1.2.0",
       minAndroid: "6.0",
       size: "62 MB",
-      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/tamsana-v1.1.0/tamsana-1.1.0.apk",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/tamsana-v1.2.0/tamsana-1.2.0.apk",
       description:
         "İlan verenlerle o ürünü arayanları bir araya getirir. Talebini yaz, sana uyan ilanlarla eşleş, doğrudan mesajlaş.",
-      features: ["İlan ve talep oluşturma", "Otomatik eşleşme", "Uygulama içi mesajlaşma", "Şehre göre filtreleme"],
+      features: ["İlan ve talep oluşturma", "Otomatik eşleşme", "Marka, model ve detaylı filtreler", "Uygulama içi mesajlaşma", "Şehre göre filtreleme"],
       changelog: [
+        { version: "1.2.0", notes: "Detaylı filtreler: talep açarken marka, model ve kategoriye özel özellikler isteğe bağlı seçilebilir; ilanlarda bu bilgiler zorunlu ve eşleşme bunlara göre yapılır. Uzun listelerde arama." },
         { version: "1.1.0", notes: "Yeni tasarım: sade yeşil görünüm, açık ve koyu tema (telefona uyar veya profilden seçilir), yeni uygulama ikonu." },
         { version: "1.0.0", notes: "İlk yayın." }
       ]
