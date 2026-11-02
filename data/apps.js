@@ -7,7 +7,7 @@
 // changelog : en yeni sürüm en üstte
 window.ARCHIVE = {
   siteName: "Arboris",
-  updated: "2026-11-01",
+  updated: "2026-11-02",
   apps: [
     {
       id: "varak",
@@ -29,10 +29,10 @@ window.ARCHIVE = {
       id: "arboris",
       name: "Arboris",
       category: "Oyun",
-      version: "1.0.1",
+      version: "1.0.2",
       minAndroid: "6.0",
       size: "60 MB",
-      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/arboris-v1.0.1/arboris-1.0.1.apk",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/arboris-v1.0.2/arboris-1.0.2.apk",
       description:
         "Doğa sevgisi ve Türkiye kültürü temalı bilgi yarışması ve kelime oyunu. Doğru cevap verdikçe ağacın büyür.",
       features: [
@@ -41,6 +41,7 @@ window.ARCHIVE = {
         "Kelime oyunu modu"
       ],
       changelog: [
+        { version: "1.0.2", notes: "İmza anahtarı yenilendi: eski sürümün üzerine kurulamaz, önce yüklü Arboris'i kaldırıp sonra bu sürümü kur. Telefondaki yerel veriler silinir, hesaba bağlı veriler kalır." },
         { version: "1.0.1", notes: "Güvenlik güncellemesi: puan hilesine karşı koruma, gizli profiller liderlikte görünmez." },
         { version: "1.0.0", notes: "İlk yayın." }
       ]
