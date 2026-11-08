@@ -7,8 +7,28 @@
 // changelog : en yeni sürüm en üstte
 window.ARCHIVE = {
   siteName: "Arboris",
-  updated: "2026-11-02",
+  updated: "2026-11-08",
   apps: [
+    {
+      id: "format-donusturucu",
+      name: "Format Dönüştürücü",
+      category: "Dosya",
+      version: "1.0.0",
+      minAndroid: "7.0",
+      size: "51 MB",
+      apk: "https://github.com/paradoxTR-droid/arboris-arsiv/releases/download/format-donusturucu-v1.0.0/format-donusturucu-1.0.0.apk",
+      description:
+        "Fotoğraf, video, ses, PDF ve belgeleri istediğin formata çevir, boyutlarını küçült. Tamamen çevrimdışı çalışır; dosyaların telefonundan hiçbir yere gönderilmez.",
+      features: [
+        "Fotoğraf: JPG, PNG, WEBP, HEIC, GIF, BMP, TIFF; boyut ve kalite ayarı",
+        "Video: MP4, MOV, MKV, AVI, WEBM, GIF; çözünürlük, sıkıştırma, kırpma",
+        "Ses: MP3, WAV, AAC, FLAC, OGG, M4A; videodan ses çıkarma",
+        "PDF: resimden PDF, PDF'ten resim, birleştirme, sayfa ayırma, küçültme",
+        "ZIP oluşturma ve açma; TXT, Markdown ve basit Word belgelerini PDF'e çevirme",
+        "İnternetsiz çalışır, ücretsiz, reklamsız"
+      ],
+      changelog: [{ version: "1.0.0", notes: "İlk yayın." }]
+    },
     {
       id: "varak",
       name: "Varak",
